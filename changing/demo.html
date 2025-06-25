@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        #container{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box1{
+            border:2px solid red;
+            padding:5px;
+            width:25%;
+
+        }
+        .box5{
+            border:2px solid green;
+            padding:5px;
+            width:5%;
+        }
+        form{
+            display:flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+             <h4>Let's work together</h4>
+             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+            <div class="contact-list">
+               <li><i class='bx bxs-send'></i>contact@gmail.com</li>
+               <li><i class='bx bxs-phone'></i>0123456789</li>
+            </div>
+            <div class="contact-icons">
+               <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+               <a href="#"><i class='bx bxl-twitter'></i></a>
+               <a href="#"><i class='bx bxl-instagram'></i></a>
+               <a href="#"><i class='bx bxl-linkedin'></i></a>
+             </div>
+       </div>
+       <div class="box5"></div>
+           <div class="contact-form">
+               <form>
+                  <input type="text" placeholder="Enter Your Name" required>
+                  <input type="email" placeholder="Enter Your Email" required>
+                  <input type="text" placeholder="Enter Your Subject">
+                  <input type="Submit" value="submit" class="send">
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
