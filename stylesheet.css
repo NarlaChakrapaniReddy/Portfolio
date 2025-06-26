@@ -24,6 +24,7 @@ body
     display:flex;
     align-items:center;
     z-index: 100;
+     background:#0ef;
 
 }
 .logo
@@ -73,7 +74,7 @@ body
 
 .home-content
 {
-    max: width 600px;
+    width: 100%;
 
 }
 .home-content h3{
@@ -109,11 +110,13 @@ body
 { 
     padding:10px 10px;
     border:10px solid yellow;
-    height:35%;
+    height:52%;
     width:35%;
     float:right;
-    border-radius:50%;
-    margin-left:25px;;
+    border-radius:1% 1%;padding: 0%;
+    margin-left:25px;
+    transform: rotate(2deg);
+    box-shadow: 9px 5px 10px red;
 
 }
 
@@ -297,7 +300,7 @@ body
 
 }
 
-.container {
+.container4 {
     padding: 90px;
 }
 
@@ -363,22 +366,24 @@ body
 
 
 
-<!css for skills section>
+/* css for skills section */
 .container{
     display:flex;
 }
 
 #skillcon {
     display:flex;
+    width: 100%;
+   
 }
 
-.container1 {
+ .container1 {
     width: 600px;
     height: 500px;
     padding: 5px 6px;
     float:left;
     padding-right:10%;
-}
+} 
 
 .heading1 {
     text-align: center;
@@ -511,8 +516,8 @@ body
 
 
 .container2 {
-    width: 600px;
-    height: 500px;
+    width: 100%;
+    height: auto;
 }
 .heading2 {
     text-align: center;
@@ -525,19 +530,17 @@ body
 .radial-bars{
     width:100%;
     display:flex;
-
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content:space-around;
     align-items: flex-start;
-    
+    gap:60px;
 }
 .radial-bars .radial-bar{
     width:25%;
-    height: 17px;
-    margin-bottom: 10px;
-    padding: 10px;
-    padding-bottom: 23%;
-    padding:50%;
+    height: 25px;
+    padding:20px;
+    padding-bottom: 60px;
     position:relative;
 }
 .radial-bars .radial-bar svg {
